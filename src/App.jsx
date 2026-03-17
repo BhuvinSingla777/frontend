@@ -5,7 +5,7 @@ function App() {
 
   const handleClick = () => {
     console.log("Button clicked");
-    console.log("Button clicked2");
+    console.log("Button clicked34");
 
     fetch("http://localhost:3000/api/hello")
       .then((res) => {
