@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState("");
 
   const handleClick = () => {
-    console.log("Button clicked");
+    console.log("Button clicked12");
     console.log("Button clicked34");
 
     fetch("http://localhost:3000/api/hello")
